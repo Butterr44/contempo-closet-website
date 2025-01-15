@@ -77,15 +77,7 @@ const Index = () => {
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-primary transition-colors"
             >
-              <span className="font-bold text-2xl">P</span>
-            </a>
-            <a 
-              href="https://www.ebay.com/str/stefaniescloset"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-600 hover:text-primary transition-colors"
-            >
-              <span className="font-bold text-2xl">e</span>
+              <ShoppingBag className="h-8 w-8" />
             </a>
           </div>
         </div>
