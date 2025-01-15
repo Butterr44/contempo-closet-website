@@ -20,7 +20,7 @@ export const Navbar = () => {
               About
             </Link>
             <a 
-              href="https://www.ebay.com" 
+              href="https://www.ebay.com/str/stefaniescloset" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-gray-800 hover:text-primary transition-colors font-medium"
@@ -28,7 +28,7 @@ export const Navbar = () => {
               Shop on eBay
             </a>
             <a 
-              href="https://www.poshmark.com" 
+              href="https://poshmark.com/closet/contempo_closet" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-gray-800 hover:text-primary transition-colors font-medium"

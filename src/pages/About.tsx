@@ -1,4 +1,5 @@
 import { Navbar } from "@/components/Navbar";
+import { Facebook } from "lucide-react";
 
 const About = () => {
   return (
@@ -26,7 +27,7 @@ const About = () => {
           <ul className="list-disc list-inside text-gray-600 mb-4">
             <li>
               <a 
-                href="https://www.ebay.com" 
+                href="https://www.ebay.com/str/stefaniescloset" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-primary hover:text-primary/80"
@@ -36,7 +37,7 @@ const About = () => {
             </li>
             <li>
               <a 
-                href="https://www.poshmark.com" 
+                href="https://poshmark.com/closet/contempo_closet" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-primary hover:text-primary/80"
@@ -45,6 +46,17 @@ const About = () => {
               </a>
             </li>
           </ul>
+          <div className="mt-6">
+            <a 
+              href="https://www.facebook.com/ContempoCloset/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center text-gray-600 hover:text-primary transition-colors"
+            >
+              <Facebook className="h-5 w-5 mr-2" />
+              <span>Follow on Facebook</span>
+            </a>
+          </div>
         </div>
       </div>
     </div>
