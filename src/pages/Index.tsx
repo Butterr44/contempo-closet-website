@@ -20,14 +20,14 @@ const Index = () => {
           <div className="flex gap-4 justify-center animate-fade-up">
             <Button 
               className="bg-primary hover:bg-primary/90 text-white"
-              onClick={() => window.open("https://www.ebay.com", "_blank")}
+              onClick={() => window.open("https://www.ebay.com/str/stefaniescloset", "_blank")}
             >
               <ShoppingBag className="mr-2 h-4 w-4" />
               Shop on eBay
             </Button>
             <Button 
               className="bg-secondary hover:bg-secondary/90"
-              onClick={() => window.open("https://www.poshmark.com", "_blank")}
+              onClick={() => window.open("https://poshmark.com/closet/contempo_closet", "_blank")}
             >
               <Heart className="mr-2 h-4 w-4" />
               Shop on Poshmark
