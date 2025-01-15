@@ -1,5 +1,6 @@
 import { Navbar } from "@/components/Navbar";
 import { Facebook } from "lucide-react";
+import { Button } from "@/components/ui/button";
 import {
   Accordion,
   AccordionContent,
@@ -14,6 +15,23 @@ const About = () => {
       <div className="container mx-auto px-4 py-8">
         <h1 className="text-4xl font-serif font-bold text-gray-800 mb-6">About Contempo Closet</h1>
         <div className="prose prose-lg max-w-none">
+          <div className="flex items-center gap-4 mb-6">
+            <Button 
+              variant="secondary"
+              size="lg"
+              className="font-medium"
+              asChild
+            >
+              <a 
+                href="https://poshmark.com/listing/Meet-your-Posher-Stefanie-5bd1f833dfb740820cc9c45c"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Meet Your Posher
+              </a>
+            </Button>
+          </div>
+
           <p className="text-gray-600 mb-4">
             Welcome to Contempo Closet! I'm passionate about giving pre-loved fashion a second life
             while helping you build your dream wardrobe sustainably.
