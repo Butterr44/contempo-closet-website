@@ -32,34 +32,30 @@ const About = () => {
             <AccordionItem value="payment">
               <AccordionTrigger className="text-lg font-medium">Payment</AccordionTrigger>
               <AccordionContent className="text-gray-600">
-                Payment is requested within 3 business days. All non-paying winning buyers are reported to eBay.
+                To ensure a smooth transaction, please complete your payment within 3 business days of winning an item. This helps us maintain a reliable shopping experience for everyone in our community.
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="shipping">
               <AccordionTrigger className="text-lg font-medium">Shipping & Handling</AccordionTrigger>
               <AccordionContent className="text-gray-600">
-                All packages and purchases are sent via USPS. I will gladly combine shipping charges when multiple items are purchased. 
-                I do not refund for items damaged, lost, or stolen during shipment. Items are shipped within 3 business days of receiving 
-                cleared payment (usually within 24 hours).
+                Your items will be carefully packaged and shipped via USPS. Shopping for multiple items? Great! I'm happy to combine shipping to help you save on costs. Once your payment is cleared, I'll ship your items within 3 business days - usually even faster, within 24 hours! Please note that while I take great care in packaging your items, I cannot provide refunds for items damaged, lost, or stolen during shipment.
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="international">
               <AccordionTrigger className="text-lg font-medium">International Shipping</AccordionTrigger>
               <AccordionContent className="text-gray-600">
-                I only ship internationally after prior communication. Please contact me first to confirm shipping availability to your location.
+                Are you shopping from outside the United States? Please reach out to me before making a purchase so we can discuss shipping options to your location. I want to ensure your items can arrive safely and at a reasonable cost.
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="condition">
               <AccordionTrigger className="text-lg font-medium">Item Conditions</AccordionTrigger>
               <AccordionContent className="text-gray-600">
-                <p>NWT (New with Tags), NWOT (New without Tags), EUC (Excellent Used Condition).</p>
+                <p>You'll find items in various conditions: NWT (New with Tags), NWOT (New without Tags), and EUC (Excellent Used Condition).</p>
                 <p className="mt-2">
-                  I do my best to accurately represent all items that I sell. It is not my intention to ever deceive a buyer. 
-                  If you are unsatisfied when you receive your item(s), please contact me before leaving negative feedback. 
-                  I always work with my buyers to ensure they are happy with their purchases.
+                  Your satisfaction is my top priority! I take great care to accurately describe and photograph each item. If you're not completely happy with your purchase when it arrives, please reach out to me before leaving feedback. I'm here to work with you and ensure you're delighted with your shopping experience.
                 </p>
               </AccordionContent>
             </AccordionItem>
@@ -67,9 +63,7 @@ const About = () => {
             <AccordionItem value="feedback">
               <AccordionTrigger className="text-lg font-medium">Feedback Policy</AccordionTrigger>
               <AccordionContent className="text-gray-600">
-                My success on eBay relies on positive feedback from my buyers. I always leave feedback for buyers once they have left 
-                positive feedback for me. If you are happy with your experience, I encourage you to leave positive feedback, as this 
-                helps other buyers know that I am a responsible and reliable seller.
+                Your feedback helps build trust in our community! When you're happy with your purchase, I'd greatly appreciate if you could take a moment to leave positive feedback. This helps other shoppers feel confident in their purchases, and I'll be sure to return the favor with feedback of my own.
               </AccordionContent>
             </AccordionItem>
           </Accordion>
