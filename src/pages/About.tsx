@@ -32,38 +32,35 @@ const About = () => {
             <AccordionItem value="payment">
               <AccordionTrigger className="text-lg font-medium">Payment</AccordionTrigger>
               <AccordionContent className="text-gray-600">
-                To ensure a smooth transaction, please complete your payment within 3 business days of winning an item. This helps us maintain a reliable shopping experience for everyone in our community.
+                Please complete payment within 3 business days to help maintain a smooth shopping experience for everyone.
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="shipping">
               <AccordionTrigger className="text-lg font-medium">Shipping & Handling</AccordionTrigger>
               <AccordionContent className="text-gray-600">
-                Your items will be carefully packaged and shipped via USPS. Shopping for multiple items? Great! I'm happy to combine shipping to help you save on costs. Once your payment is cleared, I'll ship your items within 3 business days - usually even faster, within 24 hours! Please note that while I take great care in packaging your items, I cannot provide refunds for items damaged, lost, or stolen during shipment.
+                Items ship via USPS within 3 business days (usually within 24 hours). Multiple items? I'll combine shipping to save you money! Note: I can't refund for items damaged or lost during shipping.
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="international">
               <AccordionTrigger className="text-lg font-medium">International Shipping</AccordionTrigger>
               <AccordionContent className="text-gray-600">
-                Are you shopping from outside the United States? Please reach out to me before making a purchase so we can discuss shipping options to your location. I want to ensure your items can arrive safely and at a reasonable cost.
+                Shopping from abroad? Contact me first to discuss shipping options to your location.
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="condition">
               <AccordionTrigger className="text-lg font-medium">Item Conditions</AccordionTrigger>
               <AccordionContent className="text-gray-600">
-                <p>You'll find items in various conditions: NWT (New with Tags), NWOT (New without Tags), and EUC (Excellent Used Condition).</p>
-                <p className="mt-2">
-                  Your satisfaction is my top priority! I take great care to accurately describe and photograph each item. If you're not completely happy with your purchase when it arrives, please reach out to me before leaving feedback. I'm here to work with you and ensure you're delighted with your shopping experience.
-                </p>
+                Items are listed as NWT (New with Tags), NWOT (New without Tags), or EUC (Excellent Used Condition). Not happy with your purchase? Please reach out before leaving feedback - I'm here to help!
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="feedback">
               <AccordionTrigger className="text-lg font-medium">Feedback Policy</AccordionTrigger>
               <AccordionContent className="text-gray-600">
-                Your feedback helps build trust in our community! When you're happy with your purchase, I'd greatly appreciate if you could take a moment to leave positive feedback. This helps other shoppers feel confident in their purchases, and I'll be sure to return the favor with feedback of my own.
+                Happy with your purchase? Your positive feedback helps other shoppers and I'll gladly return the favor!
               </AccordionContent>
             </AccordionItem>
           </Accordion>
