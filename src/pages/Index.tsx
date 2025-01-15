@@ -1,7 +1,6 @@
 import { Navbar } from "@/components/Navbar";
-import { Newsletter } from "@/components/Newsletter";
 import { Button } from "@/components/ui/button";
-import { ShoppingBag, Heart } from "lucide-react";
+import { ShoppingBag, Heart, Facebook } from "lucide-react";
 
 const Index = () => {
   return (
@@ -56,8 +55,41 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Newsletter Section */}
-      <Newsletter />
+      {/* Social Links Section */}
+      <section className="bg-primary/30 py-12 px-4">
+        <div className="container mx-auto max-w-xl text-center">
+          <h2 className="font-serif text-3xl mb-4">Find Me Online</h2>
+          <p className="text-gray-600 mb-6">
+            Shop and connect with me on your favorite platforms!
+          </p>
+          <div className="flex justify-center gap-8">
+            <a 
+              href="https://www.facebook.com/ContempoCloset/about"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-600 hover:text-primary transition-colors"
+            >
+              <Facebook className="h-8 w-8" />
+            </a>
+            <a 
+              href="https://poshmark.com/closet/contempo_closet"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-600 hover:text-primary transition-colors"
+            >
+              <ShoppingBag className="h-8 w-8" />
+            </a>
+            <a 
+              href="https://www.ebay.com/str/stefaniescloset"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-600 hover:text-primary transition-colors"
+            >
+              <Heart className="h-8 w-8" />
+            </a>
+          </div>
+        </div>
+      </section>
 
       {/* Footer */}
       <footer className="bg-white py-8 px-4">
