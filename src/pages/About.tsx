@@ -40,7 +40,7 @@ const About = () => {
               <AccordionTrigger className="text-lg font-medium">Shipping & Handling</AccordionTrigger>
               <AccordionContent className="text-gray-600">
                 All packages and purchases are sent via USPS. I will gladly combine shipping charges when multiple items are purchased. 
-                I do not refund for items damaged, lost or stolen during shipment. Items are shipped within 3 business days of receiving 
+                I do not refund for items damaged, lost, or stolen during shipment. Items are shipped within 3 business days of receiving 
                 cleared payment (usually within 24 hours).
               </AccordionContent>
             </AccordionItem>
@@ -48,7 +48,7 @@ const About = () => {
             <AccordionItem value="international">
               <AccordionTrigger className="text-lg font-medium">International Shipping</AccordionTrigger>
               <AccordionContent className="text-gray-600">
-                I do not ship internationally unless buyer contacts me first to verify if I will send to your area.
+                I only ship internationally after prior communication. Please contact me first to confirm shipping availability to your location.
               </AccordionContent>
             </AccordionItem>
 
@@ -57,9 +57,9 @@ const About = () => {
               <AccordionContent className="text-gray-600">
                 <p>NWT (New with Tags), NWOT (New without Tags), EUC (Excellent Used Condition).</p>
                 <p className="mt-2">
-                  I do my best to accurately represent all items that I sell. It is not my intention EVER to deceive a buyer. 
-                  If, for any reason, you are unsatisfied when you receive your item(s), I ask that you PLEASE contact me before 
-                  leaving negative feedback. I always work with my buyers to make sure they are happy with their purchase(s).
+                  I do my best to accurately represent all items that I sell. It is not my intention to ever deceive a buyer. 
+                  If you are unsatisfied when you receive your item(s), please contact me before leaving negative feedback. 
+                  I always work with my buyers to ensure they are happy with their purchases.
                 </p>
               </AccordionContent>
             </AccordionItem>
@@ -67,9 +67,9 @@ const About = () => {
             <AccordionItem value="feedback">
               <AccordionTrigger className="text-lg font-medium">Feedback Policy</AccordionTrigger>
               <AccordionContent className="text-gray-600">
-                My success on eBay relies on positive feedback from my buyers. I always leave feedback for my buyers once positive 
-                feedback is left for me. If you are happy with your experience, I encourage you to leave positive feedback for me. 
-                This helps other buyers know I am a responsible and reliable seller.
+                My success on eBay relies on positive feedback from my buyers. I always leave feedback for buyers once they have left 
+                positive feedback for me. If you are happy with your experience, I encourage you to leave positive feedback, as this 
+                helps other buyers know that I am a responsible and reliable seller.
               </AccordionContent>
             </AccordionItem>
           </Accordion>
