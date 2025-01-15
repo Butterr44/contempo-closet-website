@@ -77,7 +77,7 @@ const Index = () => {
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-primary transition-colors"
             >
-              <ShoppingBag className="h-8 w-8" />
+              <span className="font-bold text-2xl">P</span>
             </a>
             <a 
               href="https://www.ebay.com/str/stefaniescloset"
@@ -85,7 +85,7 @@ const Index = () => {
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-primary transition-colors"
             >
-              <Heart className="h-8 w-8" />
+              <span className="font-bold text-2xl">e</span>
             </a>
           </div>
         </div>
