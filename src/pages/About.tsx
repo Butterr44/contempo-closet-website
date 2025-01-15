@@ -2,7 +2,7 @@ import { Navbar } from "@/components/Navbar";
 
 const About = () => {
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-[#FDF8F6]">
       <Navbar />
       <div className="container mx-auto px-4 py-8">
         <h1 className="text-4xl font-serif font-bold text-gray-800 mb-6">About Contempo Closet</h1>
@@ -29,7 +29,7 @@ const About = () => {
                 href="https://www.ebay.com" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-blue-600 hover:text-blue-800"
+                className="text-primary hover:text-primary/80"
               >
                 eBay
               </a>
@@ -39,7 +39,7 @@ const About = () => {
                 href="https://www.poshmark.com" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-blue-600 hover:text-blue-800"
+                className="text-primary hover:text-primary/80"
               >
                 Poshmark
               </a>

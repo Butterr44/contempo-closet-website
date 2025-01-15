@@ -25,16 +25,16 @@ export default {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "#FDE1D3",
-          foreground: "#4A4A4A",
+          DEFAULT: "#4CAF50", // Brand green
+          foreground: "#ffffff",
         },
         secondary: {
-          DEFAULT: "#FFDEE2",
-          foreground: "#4A4A4A",
+          DEFAULT: "#FFB7C5", // Soft pink
+          foreground: "#000000",
         },
         accent: {
-          DEFAULT: "#E5DEFF",
-          foreground: "#4A4A4A",
+          DEFAULT: "#FFC3A0", // Peach
+          foreground: "#000000",
         },
         muted: {
           DEFAULT: "#F5F5F5",
@@ -44,21 +44,6 @@ export default {
       fontFamily: {
         serif: ["Playfair Display", "serif"],
         sans: ["Inter", "sans-serif"],
-      },
-      keyframes: {
-        "fade-up": {
-          "0%": {
-            opacity: "0",
-            transform: "translateY(10px)",
-          },
-          "100%": {
-            opacity: "1",
-            transform: "translateY(0)",
-          },
-        },
-      },
-      animation: {
-        "fade-up": "fade-up 0.5s ease-out",
       },
     },
   },
