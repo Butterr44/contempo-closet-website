@@ -67,7 +67,7 @@ const Index = () => {
         <div className="container mx-auto max-w-4xl">
           <div className="text-center space-y-12">
             <h2 className="font-serif text-4xl text-gray-800">
-              I Transform Used Clothes...
+              I transform used clothes...
             </h2>
             <div className="relative">
               <img 
@@ -77,7 +77,7 @@ const Index = () => {
               />
             </div>
             <h2 className="font-serif text-4xl text-gray-800">
-              ...Into Passive Income for You.
+              ...into passive income for you.
             </h2>
             <div>
               <Button
