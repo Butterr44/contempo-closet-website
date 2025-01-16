@@ -62,6 +62,35 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Transform Clothes Section */}
+      <section className="py-20 px-4 bg-white">
+        <div className="container mx-auto max-w-4xl">
+          <div className="text-center space-y-8">
+            <h2 className="font-serif text-4xl text-gray-800">
+              I transform used clothes...
+            </h2>
+            <div className="relative">
+              <img 
+                src="/lovable-uploads/49497730-c8ad-4540-89b0-84d1c4a76a03.png"
+                alt="Organized closet with colorful clothes"
+                className="w-full h-[400px] object-cover rounded-lg shadow-lg"
+              />
+            </div>
+            <h2 className="font-serif text-4xl text-gray-800">
+              ...into passive income for you.
+            </h2>
+            <div>
+              <Button
+                onClick={() => navigate('/sell-with-me')}
+                className="bg-primary hover:bg-primary/90 text-white px-8 py-6 text-lg h-auto"
+              >
+                Find Out More
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Social Links Section */}
       <section className="bg-primary/30 py-12 px-4">
         <div className="container mx-auto max-w-xl text-center">
