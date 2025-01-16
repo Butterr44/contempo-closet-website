@@ -5,6 +5,11 @@ import { useNavigate } from "react-router-dom";
 const Index = () => {
   const navigate = useNavigate();
 
+  const handleGetStarted = () => {
+    navigate('/sell-with-me');
+    window.scrollTo(0, 0);
+  };
+
   return (
     <div className="min-h-screen bg-[#FDF8F6]">
       {/* Hero Section */}
@@ -81,7 +86,7 @@ const Index = () => {
             </h2>
             <div>
               <Button
-                onClick={() => navigate('/sell-with-me')}
+                onClick={handleGetStarted}
                 className="bg-primary hover:bg-primary/90 text-white px-8 py-6 text-lg h-auto"
               >
                 Get Started
