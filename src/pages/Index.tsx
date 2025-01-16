@@ -38,22 +38,26 @@ const Index = () => {
         </div>
       </div>
 
-      {/* About Preview */}
+      {/* Personal Introduction */}
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-4xl">
           <div className="text-center mb-12">
-            <h2 className="font-serif text-4xl mb-6 text-gray-800">About Contempo Closet</h2>
-            <p className="text-gray-600 leading-relaxed mb-8">
-              Hi! I'm passionate about giving pre-loved fashion pieces a second life.
-              Every item in my collection is carefully selected and authenticated to
-              ensure you get the best quality at great prices.
-            </p>
+            <h2 className="font-serif text-5xl mb-8 text-gray-800">Hi, I'm Stefanie</h2>
+            <div className="space-y-3 text-xl text-gray-600 mb-8">
+              <p>Mom.</p>
+              <p>Autism advocate.</p>
+              <p>Animal lover.</p>
+              <p>Reader of books.</p>
+              <p>Travel junkie.</p>
+              <p>Cancer survivor.</p>
+              <p className="font-bold">THRIFTING ADDICT.</p>
+            </div>
             <Button 
               variant="outline" 
               className="border-primary hover:bg-primary/10"
               onClick={() => navigate('/about')}
             >
-              Read More
+              Read More About Me
             </Button>
           </div>
         </div>
