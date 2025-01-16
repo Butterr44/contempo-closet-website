@@ -1,4 +1,3 @@
-import { Navbar } from "@/components/Navbar";
 import { Button } from "@/components/ui/button";
 import { ShoppingBag, Heart, Facebook } from "lucide-react";
 import { useNavigate } from "react-router-dom";
@@ -8,8 +7,6 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-[#FDF8F6]">
-      <Navbar />
-      
       {/* Hero Section */}
       <div className="bg-gradient-to-r from-[#4CAF50]/10 to-[#FFB7C5]/10 py-20 px-4">
         <div className="container mx-auto text-center">
