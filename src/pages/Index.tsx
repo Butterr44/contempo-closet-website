@@ -61,9 +61,9 @@ const Index = () => {
             <Button 
               variant="outline" 
               className="border-primary hover:bg-primary/10"
-              onClick={() => navigate('/about')}
+              onClick={() => navigate('/sell-with-me')}
             >
-              Read More About Me
+              Sell With Me
             </Button>
           </div>
         </div>
