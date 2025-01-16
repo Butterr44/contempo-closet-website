@@ -1,4 +1,3 @@
-import { Navbar } from "@/components/Navbar";
 import { Facebook } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
@@ -11,7 +10,6 @@ import {
 const About = () => {
   return (
     <div className="min-h-screen bg-[#FDF8F6]">
-      <Navbar />
       <div className="container mx-auto px-4 py-12">
         {/* Welcome Section */}
         <div className="max-w-4xl mx-auto mb-16">
