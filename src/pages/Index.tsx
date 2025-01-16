@@ -65,7 +65,7 @@ const Index = () => {
       {/* Transform Clothes Section */}
       <section className="py-20 px-4 bg-white">
         <div className="container mx-auto max-w-4xl">
-          <div className="text-center space-y-8">
+          <div className="text-center space-y-12">
             <h2 className="font-serif text-4xl text-gray-800">
               I transform used clothes...
             </h2>
@@ -92,10 +92,10 @@ const Index = () => {
       </section>
 
       {/* Social Links Section */}
-      <section className="bg-primary/30 py-12 px-4">
+      <section className="py-16 px-4 bg-primary/10">
         <div className="container mx-auto max-w-xl text-center">
-          <h2 className="font-serif text-3xl mb-4">Find Me Online</h2>
-          <p className="text-gray-600 mb-6">
+          <h2 className="font-serif text-3xl mb-6 text-gray-800">Find Me Online</h2>
+          <p className="text-gray-600 mb-8 text-lg">
             Shop and connect with me on your favorite platforms!
           </p>
           <div className="flex justify-center gap-8">
