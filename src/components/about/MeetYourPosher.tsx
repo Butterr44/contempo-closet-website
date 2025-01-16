@@ -40,24 +40,23 @@ export const MeetYourPosher = () => {
         <div>
           <h2 className="text-3xl font-serif font-bold text-gray-800 mb-6">Surviving & Thriving</h2>
           <p className="text-lg text-gray-600 leading-relaxed">
-            When I was diagnosed with breast cancer in 2010, my kids were small and outgrowing clothes almost daily. 
-            I decided to try reselling their barely worn clothing on eBay as a way to earn some extra money. 
-            13 years later it has blossomed into a career that I love and am passionate about.
+            When I was diagnosed with breast cancer in 2010, my kids were small and outgrowing their clothes almost daily. 
+            I began reselling their barely worn clothing on eBay to earn extra money. 
+            13 years later, this has blossomed into a career I love and am passionate about.
           </p>
         </div>
 
         <div>
           <h2 className="text-3xl font-serif font-bold text-gray-800 mb-6">A Passion for Preloved Fashion</h2>
           <p className="text-lg text-gray-600 leading-relaxed mb-6">
-            I have always had a passion for repurposing and reusing preloved items. My business was born after 
-            I realized I could make extra money selling my kids gently used items. This quickly evolved into 
-            selling my own clothing items and then clothing items for friends.
+            I have always had a passion for repurposing and reusing preloved items. My business began when 
+            I realized I could earn money selling my kids' gently used clothing. This naturally evolved into 
+            selling my own items and then helping friends sell their clothing too.
           </p>
           <p className="text-lg text-gray-600 leading-relaxed">
-            As word got out, my business grew on referrals and I now have many clients who pass me their gently 
-            preloved items and I work to turn them into cash. I love providing an outlet for clients who want to 
-            make a little extra money rather than donating their used clothing items. I'm passionate about our 
-            environment and also love thrifting items as well.
+            As word spread, my business grew through referrals, and I now have many clients who trust me 
+            to turn their gently preloved items into cash. I'm passionate about protecting our environment 
+            and find joy in thrifting items as well.
           </p>
         </div>
       </div>
