@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Navbar } from "./components/Navbar";
-import { Index } from "./pages/Index";
-import { About } from "./pages/About";
+import Index from "./pages/Index";
+import About from "./pages/About";
 import SellWithMe from "./pages/SellWithMe";
 
 import "./App.css";
