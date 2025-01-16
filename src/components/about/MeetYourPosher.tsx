@@ -14,7 +14,7 @@ export const MeetYourPosher = () => {
         </div>
         <div className="w-full md:w-1/2">
           <div className="mb-8">
-            <h3 className="text-xl font-serif font-semibold text-gray-800 mb-3">single mom. business owner.</h3>
+            <h3 className="text-xl font-serif font-semibold text-gray-800 mb-3">Single Mom. Business Owner.</h3>
             <p className="text-gray-600">
               I love juggling my mom life with my work life. Reselling allows me to stay home, earn an income and have flexibility with my time.
             </p>
@@ -38,7 +38,7 @@ export const MeetYourPosher = () => {
 
       <div className="max-w-3xl mx-auto space-y-12">
         <div>
-          <h3 className="text-2xl font-serif font-semibold text-gray-800 mb-4">surviving & thriving.</h3>
+          <h3 className="text-2xl font-serif font-semibold text-gray-800 mb-4">Surviving & Thriving</h3>
           <p className="text-gray-600 leading-relaxed">
             When I was diagnosed with breast cancer in 2010, my kids were small and outgrowing clothes almost daily. 
             I decided to try reselling their barely worn clothing on eBay as a way to earn some extra money. 
