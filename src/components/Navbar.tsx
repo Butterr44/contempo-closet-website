@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { Menu, X } from "lucide-react";
+import { Menu } from "lucide-react";
 import { Button } from "./ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
 import { useIsMobile } from "@/hooks/use-mobile";
@@ -14,7 +14,18 @@ export function Navbar() {
     { name: "Home", href: "/" },
     { name: "About", href: "/about" },
     { name: "Sell With Me", href: "/sell-with-me" },
+    { name: "Shop on Poshmark", href: "https://poshmark.com/closet/contempo_closet", external: true },
+    { name: "Shop on eBay", href: "https://www.ebay.com/str/stefaniescloset", external: true },
   ];
+
+  const handleNavigation = (item: { href: string; external?: boolean }) => {
+    if (item.external) {
+      window.open(item.href, '_blank');
+    } else {
+      navigate(item.href);
+    }
+    setIsOpen(false);
+  };
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -42,10 +53,7 @@ export function Navbar() {
                       key={item.name}
                       variant="ghost"
                       className="justify-start"
-                      onClick={() => {
-                        navigate(item.href);
-                        setIsOpen(false);
-                      }}
+                      onClick={() => handleNavigation(item)}
                     >
                       {item.name}
                     </Button>
@@ -59,7 +67,7 @@ export function Navbar() {
                 <Button
                   key={item.name}
                   variant="ghost"
-                  onClick={() => navigate(item.href)}
+                  onClick={() => handleNavigation(item)}
                 >
                   {item.name}
                 </Button>
