@@ -29,15 +29,15 @@ export function Navbar() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <nav className="container flex h-14 items-center">
-        <div className="flex w-full justify-between">
-          <Button
-            variant="link"
-            className="font-serif text-xl"
-            onClick={() => navigate("/")}
-          >
-            Contempo Closet
-          </Button>
+      <nav className="container flex h-20 items-center">
+        <div className="flex w-full justify-between items-center">
+          <div className="flex items-center gap-2" onClick={() => navigate("/")}>
+            <img 
+              src="/lovable-uploads/a80e49a7-eb23-4270-aadd-fce7f4d9591e.png" 
+              alt="Contempo Closet Logo" 
+              className="h-16 cursor-pointer"
+            />
+          </div>
 
           {isMobile ? (
             <Sheet open={isOpen} onOpenChange={setIsOpen}>
