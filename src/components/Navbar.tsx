@@ -1,43 +1,73 @@
-import { Link } from "react-router-dom";
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { Menu, X } from "lucide-react";
+import { Button } from "./ui/button";
+import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
+import { useMobile } from "@/hooks/use-mobile";
 
-export const Navbar = () => {
+export function Navbar() {
+  const navigate = useNavigate();
+  const isMobile = useMobile();
+  const [isOpen, setIsOpen] = useState(false);
+
+  const navigation = [
+    { name: "Home", href: "/" },
+    { name: "About", href: "/about" },
+    { name: "Sell With Me", href: "/sell-with-me" },
+  ];
+
   return (
-    <nav className="bg-white/80 backdrop-blur-sm sticky top-0 z-50 border-b border-primary/20">
-      <div className="container mx-auto px-4 py-2">
-        <div className="flex items-center justify-between">
-          <Link to="/" className="flex items-center gap-3">
-            <img 
-              src="/lovable-uploads/2d24236d-afdf-4fdb-ac59-cb76a3b8bedf.png" 
-              alt="Contempo Closet Logo" 
-              className="h-20 object-contain"
-            />
-          </Link>
-          <div className="flex gap-6">
-            <Link to="/" className="text-gray-800 hover:text-primary transition-colors font-medium">
-              Home
-            </Link>
-            <Link to="/about" className="text-gray-800 hover:text-primary transition-colors font-medium">
-              About
-            </Link>
-            <a 
-              href="https://www.ebay.com/str/stefaniescloset" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-gray-800 hover:text-primary transition-colors font-medium"
-            >
-              Shop on eBay
-            </a>
-            <a 
-              href="https://poshmark.com/closet/contempo_closet" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-gray-800 hover:text-primary transition-colors font-medium"
-            >
-              Shop on Poshmark
-            </a>
-          </div>
+    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+      <nav className="container flex h-14 items-center">
+        <div className="flex w-full justify-between">
+          <Button
+            variant="link"
+            className="font-serif text-xl"
+            onClick={() => navigate("/")}
+          >
+            Contempo Closet
+          </Button>
+
+          {isMobile ? (
+            <Sheet open={isOpen} onOpenChange={setIsOpen}>
+              <SheetTrigger asChild>
+                <Button variant="ghost" size="icon">
+                  <Menu className="h-6 w-6" />
+                </Button>
+              </SheetTrigger>
+              <SheetContent>
+                <div className="flex flex-col space-y-4 mt-4">
+                  {navigation.map((item) => (
+                    <Button
+                      key={item.name}
+                      variant="ghost"
+                      className="justify-start"
+                      onClick={() => {
+                        navigate(item.href);
+                        setIsOpen(false);
+                      }}
+                    >
+                      {item.name}
+                    </Button>
+                  ))}
+                </div>
+              </SheetContent>
+            </Sheet>
+          ) : (
+            <div className="flex items-center gap-6">
+              {navigation.map((item) => (
+                <Button
+                  key={item.name}
+                  variant="ghost"
+                  onClick={() => navigate(item.href)}
+                >
+                  {item.name}
+                </Button>
+              ))}
+            </div>
+          )}
         </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
   );
-};
+}
