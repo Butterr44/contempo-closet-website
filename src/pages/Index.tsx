@@ -1,8 +1,11 @@
 import { Navbar } from "@/components/Navbar";
 import { Button } from "@/components/ui/button";
 import { ShoppingBag, Heart, Facebook } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const Index = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="min-h-screen bg-[#FDF8F6]">
       <Navbar />
@@ -48,6 +51,7 @@ const Index = () => {
             <Button 
               variant="outline" 
               className="border-primary hover:bg-primary/10"
+              onClick={() => navigate('/about')}
             >
               Read More
             </Button>
