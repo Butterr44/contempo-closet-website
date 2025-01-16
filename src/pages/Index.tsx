@@ -58,13 +58,6 @@ const Index = () => {
                 <p className="font-bold">THRIFTING ADDICT.</p>
               </div>
             </div>
-            <Button 
-              variant="outline" 
-              className="border-primary hover:bg-primary/10"
-              onClick={() => navigate('/sell-with-me')}
-            >
-              Sell With Me
-            </Button>
           </div>
         </div>
       </section>
