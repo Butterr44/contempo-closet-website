@@ -84,7 +84,7 @@ const Index = () => {
                 onClick={() => navigate('/sell-with-me')}
                 className="bg-primary hover:bg-primary/90 text-white px-8 py-6 text-lg h-auto"
               >
-                Find Out More
+                Get Started
               </Button>
             </div>
           </div>
