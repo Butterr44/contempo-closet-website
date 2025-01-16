@@ -40,14 +40,23 @@ const Index = () => {
         <div className="container mx-auto max-w-4xl">
           <div className="text-center mb-12">
             <h2 className="font-serif text-5xl mb-8 text-gray-800">Hi, I'm Stefanie</h2>
-            <div className="space-y-3 text-xl text-gray-600 mb-8">
-              <p>Mom.</p>
-              <p>Autism advocate.</p>
-              <p>Animal lover.</p>
-              <p>Reader of books.</p>
-              <p>Travel junkie.</p>
-              <p>Cancer survivor.</p>
-              <p className="font-bold">THRIFTING ADDICT.</p>
+            <div className="flex flex-col md:flex-row items-center gap-8 mb-8">
+              <div className="w-full md:w-1/2">
+                <img 
+                  src="/lovable-uploads/4e595391-656d-4af9-a874-ed653281a816.png"
+                  alt="Stefanie at sunset by the ocean"
+                  className="rounded-lg shadow-lg w-full h-[500px] object-cover"
+                />
+              </div>
+              <div className="w-full md:w-1/2 space-y-3 text-xl text-gray-600">
+                <p>Mom.</p>
+                <p>Autism advocate.</p>
+                <p>Animal lover.</p>
+                <p>Reader of books.</p>
+                <p>Travel junkie.</p>
+                <p>Cancer survivor.</p>
+                <p className="font-bold">THRIFTING ADDICT.</p>
+              </div>
             </div>
             <Button 
               variant="outline" 

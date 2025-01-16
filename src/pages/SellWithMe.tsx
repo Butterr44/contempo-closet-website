@@ -105,17 +105,6 @@ const SellWithMe = () => {
               </p>
             </div>
           </section>
-
-          {/* CTA */}
-          <div className="text-center pt-8">
-            <Button 
-              size="lg"
-              className="bg-primary hover:bg-primary/90 text-white text-lg px-8 py-6 rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
-              onClick={() => window.location.href = "mailto:contempocloset@gmail.com"}
-            >
-              Get Started Today
-            </Button>
-          </div>
         </div>
       </div>
     </div>
