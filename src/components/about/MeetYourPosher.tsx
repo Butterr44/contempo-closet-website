@@ -13,13 +13,7 @@ export const MeetYourPosher = () => {
           />
         </div>
         <div className="w-full md:w-1/2">
-          <h2 className="text-3xl font-serif font-bold text-gray-800 mb-6">Meet Your Posher</h2>
-          <p className="text-gray-600 text-lg mb-6">
-            Hi! I'm Stefanie, the face behind Contempo Closet. When I'm not curating amazing fashion finds,
-            you might find me exploring magical places (like Platform 9¾!) or hunting for the next perfect piece
-            to add to your wardrobe.
-          </p>
-          <div className="mb-6">
+          <div className="mb-8">
             <h3 className="text-xl font-serif font-semibold text-gray-800 mb-3">single mom. business owner.</h3>
             <p className="text-gray-600">
               I love juggling my mom life with my work life. Reselling allows me to stay home, earn an income and have flexibility with my time.
