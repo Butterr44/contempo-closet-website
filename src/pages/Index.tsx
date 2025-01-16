@@ -10,7 +10,7 @@ const Index = () => {
       {/* Hero Section */}
       <div className="bg-gradient-to-r from-[#4CAF50]/10 to-[#FFB7C5]/10 py-20 px-4">
         <div className="container mx-auto text-center">
-          <h1 className="font-serif text-5xl mb-6 animate-fade-up text-gray-800">
+          <h1 className="font-serif text-5xl mb-6 text-gray-800 animate-fade-up">
             Welcome to Contempo Closet
           </h1>
           <p className="text-xl mb-8 max-w-2xl mx-auto animate-fade-up text-gray-600">
@@ -48,7 +48,7 @@ const Index = () => {
                   className="rounded-lg shadow-lg w-full h-[500px] object-cover"
                 />
               </div>
-              <div className="w-full md:w-1/2 space-y-3 text-xl text-gray-600">
+              <div className="w-full md:w-1/2 space-y-3 text-lg text-gray-600">
                 <p>Mom.</p>
                 <p>Autism advocate.</p>
                 <p>Animal lover.</p>
@@ -67,7 +67,7 @@ const Index = () => {
         <div className="container mx-auto max-w-4xl">
           <div className="text-center space-y-12">
             <h2 className="font-serif text-4xl text-gray-800">
-              I transform used clothes...
+              I Transform Used Clothes...
             </h2>
             <div className="relative">
               <img 
@@ -77,7 +77,7 @@ const Index = () => {
               />
             </div>
             <h2 className="font-serif text-4xl text-gray-800">
-              ...into passive income for you.
+              ...Into Passive Income for You.
             </h2>
             <div>
               <Button
