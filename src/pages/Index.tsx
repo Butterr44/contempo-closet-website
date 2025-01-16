@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ShoppingBag, Heart, Facebook } from "lucide-react";
+import { ShoppingBag, Heart, Facebook, Instagram } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
 const Index = () => {
@@ -106,6 +106,14 @@ const Index = () => {
               className="text-gray-600 hover:text-primary transition-colors"
             >
               <Facebook className="h-8 w-8" />
+            </a>
+            <a 
+              href="https://www.instagram.com/contempo_closet/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-600 hover:text-primary transition-colors"
+            >
+              <Instagram className="h-8 w-8" />
             </a>
             <a 
               href="https://poshmark.com/closet/contempo_closet"
