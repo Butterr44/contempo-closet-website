@@ -123,6 +123,14 @@ const About = () => {
             >
               Poshmark
             </a>
+            <a 
+              href="https://www.ebay.com/str/stefaniescloset" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-primary hover:text-primary/80 text-lg font-medium"
+            >
+              eBay
+            </a>
           </div>
           <div className="mt-6">
             <a 
