@@ -44,17 +44,9 @@ const SellWithMe = () => {
             <h2 className="font-serif text-3xl text-primary mb-6">Step Two: schedule pick up</h2>
             <div className="space-y-4 text-gray-600 leading-relaxed">
               <p>
-                The process is simple. You show me what you're thinking of selling. 
-                I'll tell you what I think will sell (and what won't). I've been doing this 
-                for years, so I have a pretty good idea of what will sell, and for how much money.
-              </p>
-              <p>
-                Once we've figured out what we want to sell through Contempo, I'll offer a fair 
-                split of profits. Typically, that's a 40/60 split, 40% for clients and 60% for 
-                myself, after fees charged by Poshmark and eBay.
-              </p>
-              <p>
-                Once we've agreed on the items, I'll schedule a pick up time and drive the goods to Contempo to start putting them up for sale.
+                We'll schedule a convenient time for me to meet you for pick up, or items can be left in a secure location for pick up. 
+                After pick up, the items go to Contempo to start the processing phase. (Any items not accepted due to flaws, stains, or style 
+                can be donated on client's behalf or returned)
               </p>
             </div>
           </section>
@@ -64,7 +56,7 @@ const SellWithMe = () => {
             <h2 className="font-serif text-3xl text-primary mb-6">Step three: list and sell</h2>
             <div className="space-y-8">
               <div>
-                <h3 className="text-xl font-semibold text-gray-800 mb-4">My responsibilities:</h3>
+                <h3 className="text-xl font-semibold text-gray-800 mb-4">My services:</h3>
                 <ul className="list-disc pl-6 space-y-3 text-gray-600">
                   <li>Tracking. I record everything on detailed spreadsheets so all goods are properly accounted for.</li>
                   <li>Spot treatment. If clothes need a little extra love before they're listed, they get the spot treatment.</li>
