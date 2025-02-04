@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import About from "./pages/About";
 import SellWithMe from "./pages/SellWithMe";
-import Navbar from "./components/Navbar";
+import { Navbar } from "./components/Navbar";
 import { Toaster } from "./components/ui/toaster";
 import "./App.css";
 
