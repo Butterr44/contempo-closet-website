@@ -29,7 +29,7 @@ const SellWithMe = () => {
             <div className="space-y-4 text-gray-600 leading-relaxed">
               <p>
                 Reach out via email or Instagram, and we can chat about the process if you have any questions. 
-                Commission earned is a 60/40 split (60% Contempo/40% client) and is calculated after 20% fees of the platforms.
+                Commission earned is a 60/40 split (60% Contempo/40% client) and is calculated after 20% fees charged by eBay and Poshmark.
               </p>
             </div>
           </section>
@@ -52,7 +52,7 @@ const SellWithMe = () => {
             <div className="space-y-8">
               <div>
                 <h3 className="text-xl font-semibold text-gray-800 mb-4">My services:</h3>
-                <ul className="list-disc space-y-3 text-gray-600">
+                <ul className="text-gray-600 space-y-3 text-left" style={{ listStyleType: '🌸' }}>
                   <li>Tracking. I record everything on detailed spreadsheets so all goods are properly accounted for.</li>
                   <li>Spot treatment. If clothes need a little extra love before they're listed, they get the spot treatment.</li>
                   <li>Photography. I photograph clothes in my at-home studio.</li>
@@ -66,7 +66,7 @@ const SellWithMe = () => {
 
               <div>
                 <h3 className="text-xl font-semibold text-gray-800 mb-4">Your responsibilities:</h3>
-                <p className="text-gray-600">
+                <p className="text-gray-600 text-left">
                   Get some R&R and wait for your first payment.
                 </p>
               </div>
