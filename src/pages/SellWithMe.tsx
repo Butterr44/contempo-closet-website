@@ -28,13 +28,8 @@ const SellWithMe = () => {
             <h2 className="font-serif text-3xl text-primary mb-6">Step one: reach out</h2>
             <div className="space-y-4 text-gray-600 leading-relaxed">
               <p>
-                The process starts when you reach out, wondering how all this stuff works. 
-                We chat for a bit (no presh). I explain how the reselling business works, 
-                and we go from there. It's all very casual and low-stakes.
-              </p>
-              <p>
-                If you or your friend (the client) is interested in selling their used clothes, 
-                we'll move on to the next step: scheduling a quick tour of the client's closet.
+                Reach out via email or Instagram, and we can chat about the process if you have any questions. 
+                Commission earned is a 60/40 split (60% Contempo/40% client) and is calculated after 20% fees of the platforms.
               </p>
             </div>
           </section>
@@ -57,24 +52,22 @@ const SellWithMe = () => {
             <div className="space-y-8">
               <div>
                 <h3 className="text-xl font-semibold text-gray-800 mb-4">My services:</h3>
-                <ul className="list-disc pl-6 space-y-3 text-gray-600">
+                <ul className="list-disc space-y-3 text-gray-600">
                   <li>Tracking. I record everything on detailed spreadsheets so all goods are properly accounted for.</li>
                   <li>Spot treatment. If clothes need a little extra love before they're listed, they get the spot treatment.</li>
                   <li>Photography. I photograph clothes in my at-home studio.</li>
-                  <li>Research. How much should a product sell for? I leverage my 10+ years of reselling experience to figure it out.</li>
+                  <li>Research. How much should a product sell for? I leverage my 15+ years of reselling experience to figure it out.</li>
                   <li>Listing. I'll cross-list the item to eBay and Poshmark, staking my brand on client products.</li>
                   <li>Storage. I label, store, and package inventory for shipping.</li>
                   <li>Shipping. Once something sells, I print the label, package the item, and drop it off at the post office to be shipped.</li>
-                  <li>Payment. Once the customer indicated they love their new clothes, I'll send clients their share of profits. Whoot!</li>
+                  <li>Payment. Client payments are made approximately every 8 weeks via Venmo.</li>
                 </ul>
               </div>
 
               <div>
                 <h3 className="text-xl font-semibold text-gray-800 mb-4">Your responsibilities:</h3>
                 <p className="text-gray-600">
-                  Get some R&R, because you're golden. You've reached out, shown me your closet, and agreed to a fair rate. 
-                  All that's left is to let the passive income roll in. I'll contact you when something sells, or if there's 
-                  anything else I need from you.
+                  Get some R&R and wait for your first payment.
                 </p>
               </div>
             </div>
@@ -85,8 +78,7 @@ const SellWithMe = () => {
             <h2 className="font-serif text-3xl text-secondary mb-6">optional: sell even more clothes</h2>
             <div className="space-y-4 text-gray-600 leading-relaxed">
               <p>
-                Have more clothes you want to sell? No problem! Reach out, and we'll schedule another quick tour of the closet. 
-                You're an expert by now, so you'll know exactly what to expect ahead of time.
+                Have more clothes you want to sell? No problem! We'll arrange another pick up.
               </p>
               <p className="mt-8">
                 Still have questions? Check out these FAQs. Or reach out via this website, or to{' '}
