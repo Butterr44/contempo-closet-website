@@ -41,10 +41,10 @@ const SellWithMe = () => {
 
           {/* Step 2 */}
           <section className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
-            <h2 className="font-serif text-3xl text-primary mb-6">Step two: tour the closet</h2>
+            <h2 className="font-serif text-3xl text-primary mb-6">Step Two: schedule pick up</h2>
             <div className="space-y-4 text-gray-600 leading-relaxed">
               <p>
-                The tour is simple. You show me what you're thinking of selling. 
+                The process is simple. You show me what you're thinking of selling. 
                 I'll tell you what I think will sell (and what won't). I've been doing this 
                 for years, so I have a pretty good idea of what will sell, and for how much money.
               </p>
@@ -54,7 +54,7 @@ const SellWithMe = () => {
                 myself, after fees charged by Poshmark and eBay.
               </p>
               <p>
-                Once the tour wraps up, I'll drive the goods to Contempo and start putting them up for sale.
+                Once we've agreed on the items, I'll schedule a pick up time and drive the goods to Contempo to start putting them up for sale.
               </p>
             </div>
           </section>
