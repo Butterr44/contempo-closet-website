@@ -50,72 +50,78 @@ const SellWithMe = () => {
           </section>
 
           {/* Step 3 */}
-          <section className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
-            <h2 className="font-serif text-3xl text-primary mb-6">Step three: list and sell</h2>
-            <div className="space-y-8">
+          <section className="bg-white rounded-2xl p-4 md:p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <h2 className="font-serif text-3xl text-primary mb-8">Step three: list and sell</h2>
+            <div className="space-y-12">
               <div>
-                <h3 className="text-xl font-semibold text-gray-800 mb-4 flex items-center">
-                  <span className="bg-primary/10 rounded-full w-8 h-8 flex items-center justify-center mr-2 text-primary">✓</span>
+                <h3 className="text-xl font-semibold text-gray-800 mb-6">
                   My services
                 </h3>
-                <ul className="text-gray-600 space-y-4 text-left pl-4">
+                <ul className="text-gray-600 space-y-5 text-left">
                   <li className="flex items-start">
-                    <span className="text-primary mr-2">🌸</span>
+                    <span className="text-primary mr-3 flex-shrink-0">🌸</span>
                     <div>
-                      <span className="font-medium">Tracking:</span> I record everything on detailed spreadsheets so all goods are properly accounted for.
+                      <span className="font-medium">Tracking: </span>
+                      I record everything on detailed spreadsheets so all goods are properly accounted for.
                     </div>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-primary mr-2">🌸</span>
+                    <span className="text-primary mr-3 flex-shrink-0">🌸</span>
                     <div>
-                      <span className="font-medium">Spot treatment:</span> If clothes need a little extra love before they're listed, they get the spot treatment.
+                      <span className="font-medium">Spot treatment: </span>
+                      If clothes need a little extra love before they're listed, they get the spot treatment.
                     </div>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-primary mr-2">🌸</span>
+                    <span className="text-primary mr-3 flex-shrink-0">🌸</span>
                     <div>
-                      <span className="font-medium">Photography:</span> I photograph clothes in my at-home studio.
+                      <span className="font-medium">Photography: </span>
+                      I photograph clothes in my at-home studio.
                     </div>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-primary mr-2">🌸</span>
+                    <span className="text-primary mr-3 flex-shrink-0">🌸</span>
                     <div>
-                      <span className="font-medium">Research:</span> How much should a product sell for? I leverage my 15+ years of reselling experience to figure it out.
+                      <span className="font-medium">Research: </span>
+                      How much should a product sell for? I leverage my 15+ years of reselling experience to figure it out.
                     </div>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-primary mr-2">🌸</span>
+                    <span className="text-primary mr-3 flex-shrink-0">🌸</span>
                     <div>
-                      <span className="font-medium">Listing:</span> I'll cross-list the item to eBay and Poshmark, staking my brand on client products.
+                      <span className="font-medium">Listing: </span>
+                      I'll cross-list the item to eBay and Poshmark, staking my brand on client products.
                     </div>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-primary mr-2">🌸</span>
+                    <span className="text-primary mr-3 flex-shrink-0">🌸</span>
                     <div>
-                      <span className="font-medium">Storage:</span> I label, store, and package inventory for shipping.
+                      <span className="font-medium">Storage: </span>
+                      I label, store, and package inventory for shipping.
                     </div>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-primary mr-2">🌸</span>
+                    <span className="text-primary mr-3 flex-shrink-0">🌸</span>
                     <div>
-                      <span className="font-medium">Shipping:</span> Once something sells, I print the label, package the item, and drop it off at the post office to be shipped.
+                      <span className="font-medium">Shipping: </span>
+                      Once something sells, I print the label, package the item, and drop it off at the post office to be shipped.
                     </div>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-primary mr-2">🌸</span>
+                    <span className="text-primary mr-3 flex-shrink-0">🌸</span>
                     <div>
-                      <span className="font-medium">Payment:</span> Client payments are made approximately every 8 weeks via Venmo.
+                      <span className="font-medium">Payment: </span>
+                      Client payments are made approximately every 8 weeks via Venmo.
                     </div>
                   </li>
                 </ul>
               </div>
 
               <div>
-                <h3 className="text-xl font-semibold text-gray-800 mb-4 flex items-center">
-                  <span className="bg-secondary/20 rounded-full w-8 h-8 flex items-center justify-center mr-2 text-secondary">✨</span>
+                <h3 className="text-xl font-semibold text-gray-800 mb-4">
                   Your responsibilities
                 </h3>
-                <p className="text-gray-600 text-left pl-4 italic">
+                <p className="text-gray-600 text-left italic">
                   Get some R&R and wait for your first payment.
                 </p>
               </div>
