@@ -22,16 +22,16 @@ const Index = () => {
           <p className="text-xl mb-8 max-w-2xl mx-auto animate-fade-up text-gray-600">
             Thrifting • Thriving • Thankful
           </p>
-          <div className="flex gap-4 justify-center animate-fade-up">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-up">
             <Button 
-              className="bg-primary hover:bg-primary/90 text-white"
+              className="w-full sm:w-auto bg-primary hover:bg-primary/90 text-white"
               onClick={() => window.open("https://www.ebay.com/str/stefaniescloset", "_blank")}
             >
               <ShoppingBag className="mr-2 h-4 w-4" />
               Shop on eBay
             </Button>
             <Button 
-              className="bg-secondary hover:bg-secondary/90"
+              className="w-full sm:w-auto bg-secondary hover:bg-secondary/90"
               onClick={() => window.open("https://poshmark.com/closet/contempo_closet", "_blank")}
             >
               <Heart className="mr-2 h-4 w-4" />
