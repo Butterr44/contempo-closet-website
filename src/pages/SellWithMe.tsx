@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { ShoppingPolicies } from "@/components/about/ShoppingPolicies";
@@ -86,10 +85,12 @@ const SellWithMe = () => {
               </p>
               <p className="mt-8">
                 Still have questions? Check out these FAQs. Or reach out via this website, or to{' '}
-                <a href="mailto:contempocloset@gmail.com" className="text-primary hover:underline">
+                <a 
+                  href="mailto:contempocloset@gmail.com" 
+                  className="text-primary hover:underline break-words"
+                >
                   contempocloset@gmail.com
                 </a>
-                .
               </p>
             </div>
           </section>
