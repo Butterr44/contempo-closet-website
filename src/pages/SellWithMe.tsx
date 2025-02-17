@@ -130,7 +130,7 @@ const SellWithMe = () => {
 
           {/* Optional Section */}
           <section className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
-            <h2 className="font-serif text-3xl text-secondary mb-6">optional: sell even more clothes</h2>
+            <h2 className="font-serif text-3xl text-secondary mb-6">Optional: sell even more clothes</h2>
             <div className="space-y-4 text-gray-600 leading-relaxed">
               <p>
                 Have more clothes you want to sell? No problem! We'll arrange another pick up.
