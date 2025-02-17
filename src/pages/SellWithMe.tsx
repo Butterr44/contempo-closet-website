@@ -13,11 +13,13 @@ const SellWithMe = () => {
           </h1>
           <div className="max-w-3xl mx-auto space-y-4">
             <p className="text-xl text-gray-600 leading-relaxed">
-              You may be wondering, how does Contempo Closet sell clothes? How does Stefanie split profits, 
-              how long does it all take, and how much effort do I have to put into selling my old clothes?
+              Wondering how to clear out your closet without the hassle? I've got you covered!
             </p>
             <p className="text-lg text-gray-600">
-              Here's how it all works. I'll break it down step-by-step.
+              As a busy mom myself, I know how precious your time is. That's why I've made selling with Contempo Closet as simple as possible. You get 60% of the profits, and I handle all the details - from photos to shipping and everything in between.
+            </p>
+            <p className="text-lg text-gray-600">
+              Ready to transform your closet into extra cash? Let's break it down...
             </p>
           </div>
         </div>
