@@ -32,19 +32,19 @@ const SellWithMe = () => {
             <div className="space-y-4 text-gray-600 leading-relaxed">
               <p>
                 Reach out via email or Instagram, and we can chat about the process if you have any questions. 
-                Commission earned is a 60/40 split (60% Contempo/40% client) and is calculated after 20% fees charged by eBay and Poshmark.
+                Commission earned is a 60/40 split (60% to you, 40% to Contempo) after marketplace fees from eBay and Poshmark (approximately 20%).
               </p>
             </div>
           </section>
 
           {/* Step 2 */}
           <section className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
-            <h2 className="font-serif text-3xl text-primary mb-6">Step Two: schedule pick up</h2>
+            <h2 className="font-serif text-3xl text-primary mb-6">Step two: schedule pick up</h2>
             <div className="space-y-4 text-gray-600 leading-relaxed">
               <p>
-                We'll schedule a convenient time for me to meet you for pick up, or items can be left in a secure location for pick up. 
-                After pick up, the items go to Contempo to start the processing phase. (Any items not accepted due to flaws, stains, or style 
-                can be donated on client's behalf or returned)
+                We'll schedule a convenient time for me to pick up your items, or you can leave them in a secure location. 
+                Once I have your items, I'll review them at Contempo. If any items can't be accepted due to flaws, stains, or style, 
+                I can either donate them on your behalf or return them to you.
               </p>
             </div>
           </section>
