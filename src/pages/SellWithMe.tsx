@@ -54,22 +54,68 @@ const SellWithMe = () => {
             <h2 className="font-serif text-3xl text-primary mb-6">Step three: list and sell</h2>
             <div className="space-y-8">
               <div>
-                <h3 className="text-xl font-semibold text-gray-800 mb-4">My services:</h3>
-                <ul className="text-gray-600 space-y-3 text-left" style={{ listStyleType: '🌸' }}>
-                  <li>Tracking. I record everything on detailed spreadsheets so all goods are properly accounted for.</li>
-                  <li>Spot treatment. If clothes need a little extra love before they're listed, they get the spot treatment.</li>
-                  <li>Photography. I photograph clothes in my at-home studio.</li>
-                  <li>Research. How much should a product sell for? I leverage my 15+ years of reselling experience to figure it out.</li>
-                  <li>Listing. I'll cross-list the item to eBay and Poshmark, staking my brand on client products.</li>
-                  <li>Storage. I label, store, and package inventory for shipping.</li>
-                  <li>Shipping. Once something sells, I print the label, package the item, and drop it off at the post office to be shipped.</li>
-                  <li>Payment. Client payments are made approximately every 8 weeks via Venmo.</li>
+                <h3 className="text-xl font-semibold text-gray-800 mb-4 flex items-center">
+                  <span className="bg-primary/10 rounded-full w-8 h-8 flex items-center justify-center mr-2 text-primary">✓</span>
+                  My services
+                </h3>
+                <ul className="text-gray-600 space-y-4 text-left pl-4">
+                  <li className="flex items-start">
+                    <span className="text-primary mr-2">🌸</span>
+                    <div>
+                      <span className="font-medium">Tracking:</span> I record everything on detailed spreadsheets so all goods are properly accounted for.
+                    </div>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-primary mr-2">🌸</span>
+                    <div>
+                      <span className="font-medium">Spot treatment:</span> If clothes need a little extra love before they're listed, they get the spot treatment.
+                    </div>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-primary mr-2">🌸</span>
+                    <div>
+                      <span className="font-medium">Photography:</span> I photograph clothes in my at-home studio.
+                    </div>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-primary mr-2">🌸</span>
+                    <div>
+                      <span className="font-medium">Research:</span> How much should a product sell for? I leverage my 15+ years of reselling experience to figure it out.
+                    </div>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-primary mr-2">🌸</span>
+                    <div>
+                      <span className="font-medium">Listing:</span> I'll cross-list the item to eBay and Poshmark, staking my brand on client products.
+                    </div>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-primary mr-2">🌸</span>
+                    <div>
+                      <span className="font-medium">Storage:</span> I label, store, and package inventory for shipping.
+                    </div>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-primary mr-2">🌸</span>
+                    <div>
+                      <span className="font-medium">Shipping:</span> Once something sells, I print the label, package the item, and drop it off at the post office to be shipped.
+                    </div>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-primary mr-2">🌸</span>
+                    <div>
+                      <span className="font-medium">Payment:</span> Client payments are made approximately every 8 weeks via Venmo.
+                    </div>
+                  </li>
                 </ul>
               </div>
 
               <div>
-                <h3 className="text-xl font-semibold text-gray-800 mb-4">Your responsibilities:</h3>
-                <p className="text-gray-600 text-left">
+                <h3 className="text-xl font-semibold text-gray-800 mb-4 flex items-center">
+                  <span className="bg-secondary/20 rounded-full w-8 h-8 flex items-center justify-center mr-2 text-secondary">✨</span>
+                  Your responsibilities
+                </h3>
+                <p className="text-gray-600 text-left pl-4 italic">
                   Get some R&R and wait for your first payment.
                 </p>
               </div>
