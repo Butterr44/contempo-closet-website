@@ -136,7 +136,7 @@ const SellWithMe = () => {
                 Have more clothes you want to sell? No problem! We'll arrange another pick up.
               </p>
               <p className="mt-8">
-                Still have questions? Check out these FAQs. Or reach out via this website, or to{' '}
+                Still have questions? Check out these FAQs or reach out to{' '}
                 <a 
                   href="mailto:contempocloset@gmail.com" 
                   className="text-primary hover:underline break-words"
