@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Menu } from "lucide-react";
@@ -46,7 +47,7 @@ export function Navbar() {
                   <Menu className="h-6 w-6" />
                 </Button>
               </SheetTrigger>
-              <SheetContent>
+              <SheetContent side="top" className="w-full">
                 <div className="flex flex-col space-y-4 mt-4">
                   {navigation.map((item) => (
                     <Button
