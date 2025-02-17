@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Button } from "@/components/ui/button";
 
@@ -8,7 +9,7 @@ const SellWithMe = () => {
         {/* Header */}
         <div className="text-center mb-20 space-y-6">
           <h1 className="font-serif text-5xl md:text-6xl text-gray-800 mb-6 animate-fade-in">
-            Wonder no more
+            Sell with me
           </h1>
           <div className="max-w-3xl mx-auto space-y-4">
             <p className="text-xl text-gray-600 leading-relaxed">
