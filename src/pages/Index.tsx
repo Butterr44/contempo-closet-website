@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { ShoppingBag, Heart, Facebook, Instagram } from "lucide-react";
 import { useNavigate } from "react-router-dom";
@@ -82,7 +83,7 @@ const Index = () => {
               />
             </div>
             <h2 className="font-serif text-4xl text-gray-800">
-              ...into passive income for you.
+              ...into passive income!
             </h2>
             <div>
               <Button
