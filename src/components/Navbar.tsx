@@ -47,7 +47,7 @@ export function Navbar() {
                   <Menu className="h-6 w-6" />
                 </Button>
               </SheetTrigger>
-              <SheetContent side="top" className="w-full">
+              <SheetContent side="top" className="w-full bg-white border-b shadow-lg">
                 <div className="flex flex-col space-y-4 mt-4">
                   {navigation.map((item) => (
                     <Button
