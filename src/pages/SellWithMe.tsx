@@ -1,6 +1,7 @@
 
 import React from "react";
 import { Button } from "@/components/ui/button";
+import { ShoppingPolicies } from "@/components/about/ShoppingPolicies";
 
 const SellWithMe = () => {
   return (
@@ -9,7 +10,7 @@ const SellWithMe = () => {
         {/* Header */}
         <div className="text-center mb-20 space-y-6">
           <h1 className="font-serif text-5xl md:text-6xl text-gray-800 mb-6 animate-fade-in">
-            Sell with me
+            Sell With Me
           </h1>
           <div className="max-w-3xl mx-auto space-y-4">
             <p className="text-xl text-gray-600 leading-relaxed">
@@ -91,6 +92,11 @@ const SellWithMe = () => {
                 .
               </p>
             </div>
+          </section>
+
+          {/* Shopping Policies Section */}
+          <section className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <ShoppingPolicies />
           </section>
         </div>
       </div>
