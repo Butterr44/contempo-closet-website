@@ -47,19 +47,19 @@ export function Navbar() {
                   <Menu className="h-6 w-6" />
                 </Button>
               </SheetTrigger>
-              <SheetContent side="top" className="w-full bg-white border-b shadow-lg">
-                <div className="flex flex-col space-y-4 mt-4">
+              <SheetContent side="right" className="w-[280px] bg-white">
+                <nav className="flex flex-col space-y-1">
                   {navigation.map((item) => (
                     <Button
                       key={item.name}
                       variant="ghost"
-                      className="justify-start"
+                      className="w-full justify-start rounded-none py-6 text-lg"
                       onClick={() => handleNavigation(item)}
                     >
                       {item.name}
                     </Button>
                   ))}
-                </div>
+                </nav>
               </SheetContent>
             </Sheet>
           ) : (
