@@ -1,9 +1,9 @@
 
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { Menu } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { Button } from "./ui/button";
-import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
+import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "./ui/sheet";
 import { useIsMobile } from "@/hooks/use-mobile";
 
 export function Navbar() {
@@ -43,17 +43,20 @@ export function Navbar() {
           {isMobile ? (
             <Sheet open={isOpen} onOpenChange={setIsOpen}>
               <SheetTrigger asChild>
-                <Button variant="ghost" size="icon">
+                <Button variant="ghost" size="icon" className="mr-2">
                   <Menu className="h-6 w-6" />
                 </Button>
               </SheetTrigger>
-              <SheetContent side="top" className="w-full bg-white border-b shadow-lg">
-                <div className="flex flex-col space-y-4 mt-4">
+              <SheetContent side="right" className="w-[85vw] sm:w-[35vw] p-0">
+                <SheetHeader className="p-6 border-b">
+                  <SheetTitle className="text-left">Menu</SheetTitle>
+                </SheetHeader>
+                <div className="flex flex-col py-6">
                   {navigation.map((item) => (
                     <Button
                       key={item.name}
                       variant="ghost"
-                      className="justify-start"
+                      className="justify-start rounded-none px-6 py-6 text-lg font-normal h-auto"
                       onClick={() => handleNavigation(item)}
                     >
                       {item.name}
