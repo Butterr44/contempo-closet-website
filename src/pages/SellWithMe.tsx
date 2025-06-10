@@ -13,9 +13,7 @@ const SellWithMe = () => {
             <p className="text-xl text-gray-600 leading-relaxed">
               Wondering how to clear out your closet without the hassle? I've got you covered!
             </p>
-            <p className="text-lg text-gray-600">
-              As a busy mom myself, I know how precious your time is. That's why I've made selling with Contempo Closet as simple as possible. You get 60% of the profits, and I handle all the details - from photos to shipping and everything in between.
-            </p>
+            <p className="text-lg text-gray-600">As a busy mom myself, I know how precious your time is. That's why I've made selling with Contempo Closet as simple as possible. You get 40% of the profits, and I handle all the details - from photos to shipping and everything in between.</p>
             <p className="text-lg text-gray-600">
               Ready to transform your closet into extra cash? Let's break it down...
             </p>
