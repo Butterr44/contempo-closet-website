@@ -1,10 +1,8 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { ShoppingPolicies } from "@/components/about/ShoppingPolicies";
-
 const SellWithMe = () => {
-  return (
-    <div className="min-h-screen bg-gradient-to-b from-[#FDF8F6] to-white py-16 px-4">
+  return <div className="min-h-screen bg-gradient-to-b from-[#FDF8F6] to-white py-16 px-4">
       <div className="container mx-auto max-w-4xl">
         {/* Header */}
         <div className="text-center mb-20 space-y-6">
@@ -30,10 +28,7 @@ const SellWithMe = () => {
           <section className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
             <h2 className="font-serif text-3xl text-primary mb-6">Step one: reach out</h2>
             <div className="space-y-4 text-gray-600 leading-relaxed">
-              <p>
-                Reach out via email or Instagram, and we can chat about the process if you have any questions. 
-                Commission earned is a 60/40 split (60% to you, 40% to Contempo) after marketplace fees from eBay and Poshmark (approximately 20%).
-              </p>
+              <p>Reach out via email or Instagram, and we can chat about the process if you have any questions. Commission earned is a 60/40 split (60% to Contempo, 40% to Client) after marketplace fees from eBay and Poshmark (approximately 20%).</p>
             </div>
           </section>
 
@@ -137,10 +132,7 @@ const SellWithMe = () => {
               </p>
               <p className="mt-8">
                 Still have questions? Check out these FAQs or reach out to{' '}
-                <a 
-                  href="mailto:contempocloset@gmail.com" 
-                  className="text-primary hover:underline break-words"
-                >
+                <a href="mailto:contempocloset@gmail.com" className="text-primary hover:underline break-words">
                   contempocloset@gmail.com
                 </a>
               </p>
@@ -153,8 +145,6 @@ const SellWithMe = () => {
           </section>
         </div>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default SellWithMe;
