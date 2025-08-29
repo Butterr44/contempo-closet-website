@@ -7,8 +7,8 @@ export const MeetYourPosher = () => {
       <div className="flex flex-col md:flex-row gap-12 items-center max-w-5xl mx-auto mb-16">
         <div className="w-full md:w-1/2">
           <img 
-            src="/lovable-uploads/e0323d9a-7d09-4acb-bd01-2cfc1d5b9556.png"
-            alt="Stefanie in elegant black dress at garden walkway"
+            src="/lovable-uploads/80a6c47a-0ae1-4909-b448-aa4d91c2d63b.png"
+            alt="Stefanie at Platform 9 3/4"
             className="rounded-xl shadow-lg w-full object-cover"
           />
         </div>
