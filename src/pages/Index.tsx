@@ -54,7 +54,7 @@ const Index = () => {
                 />
               </div>
               <div className="w-full md:w-1/2 space-y-3 text-lg text-gray-600">
-                <p>Mom.</p>
+                <p>Single Mom.</p>
                 <p>Autism advocate.</p>
                 <p>Animal lover.</p>
                 <p>Reader of books.</p>
