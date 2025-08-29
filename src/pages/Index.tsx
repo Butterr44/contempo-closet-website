@@ -48,8 +48,8 @@ const Index = () => {
             <div className="flex flex-col md:flex-row items-center gap-8 mb-8">
               <div className="w-full md:w-1/2">
                 <img 
-                  src="/lovable-uploads/4e595391-656d-4af9-a874-ed653281a816.png"
-                  alt="Stefanie at sunset by the ocean"
+                  src="/lovable-uploads/e2dddc08-979f-4e34-805c-5212515f0ad1.png"
+                  alt="Stefanie in black dress at Jardín de Monforte"
                   className="rounded-lg shadow-lg w-full h-[500px] object-cover"
                 />
               </div>
